@@ -245,6 +245,20 @@ moon-run-format:## 	Format code in all projects.
 moon-run-typecheck:## 	 - Type check code in all projects.
 	@moon run :typecheck
 
+moon-check-astro-app:## 	
+	@type -P moon && moon check astro-app
+moon-check-nextjs-app:## 	
+	@type -P moon && moon check nextjs-app
+moon-check-nuxt-app:## 	
+	@type -P moon && moon check nuxt-app
+moon-check-remix-app:## 	
+	@type -P moon && moon check remix-app
+moon-check-sveltekit:## 	TODO: macOS x86 Intel and Arm64 version detection!
+	@type -P moon && moon check sveltekit
+moon-check-vue-vite-app:## 	
+	@type -P moon && moon check vue-vite-app
+
+
 tag:
 	@git tag $(OS)-$(OS_VERSION)-$(ARCH)-$(shell date +%s)
 	@git push -f --tags
