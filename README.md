@@ -1,4 +1,10 @@
-# moon examples
+## moon examples
+
+<center>
+
+![](./screenshot.png)
+
+</center>
 
 A collection of packages and applications using moon and popular JavaScript tooling.
 
